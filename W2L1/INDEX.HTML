@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .table2 {
+            padding: 10px;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        } 
+           
+            td, th {
+            border: 1px solid black;
+            padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="number" max="15" min="1" step="0.5">
+
+    </form>
+
+    <table width="100%">
+        <tr>
+            <td colspan="2">
+                Table title
+
+            </td>
+        </tr>
+        <tr>
+            <td>#</td>
+            <td>Name</td>
+        </tr>
+        <tr>
+            <th rowspan="2">
+                1
+            </th>
+        </tr>
+    </table>
+    <br>
+<table width="100%" class="table2">
+    <tr>
+        <td rowspan="3">DAY</td>
+        <td colspan="3">Weekly schedule</td>
+    </tr>
+    <tr>
+        <th colspan="2">Time Table</th>
+        <td rowspan="2">Topic</td>
+    </tr>
+    <tr>
+        <td>Begin</td>
+        <td>End</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2">8AM</td>
+        <td rowspan="2">5PM</td>
+        <td>Introduction</td>
+    </tr>
+    <tr>
+        <td>Setup</td>
+    </tr>
+    <tr>
+        <td rowspan="5">Tuesday</td>
+        <td rowspan="2">8:00 am</td>
+        <td rowspan="2">11:00 am</td>
+        <td rowspan="3">Git basics</td>
+      </tr>
+      <tr></tr>
+      <tr>
+        <td rowspan="2">11:00 am</td>
+        <td rowspan="2">2:00 pm</td>
+      </tr>
+      <tr>
+        <td rowspan="2">HTML tags</td>
+      </tr>
+      <tr>
+        <td>2:00 pm</td>
+        <td>5:00 pm</td>
+      </tr>
+      <tr>
+        <td>Wensday</td>
+        <td>8:00 am</td>
+        <td>12:00 pm</td>
+        <td>HTML attributes</td>
+      </tr>
+</table>
+
+<form action="">
+    <div><label for="first-name">First Name: </label><input type="first-name"></div>
+    <div><label for="last-name">Last Name: </label><input type="last-name"></div>
+    <div><label for="email">Email: </label><input type="email" placeholder="youremail@domain.com"></div>
+    <div><label>Age (in full years): </label><input type="number" name="age" id="age"></div>
+    <div><label>Country: </label>  
+        <select name="country">
+        <option value="option">Choose your country</option>
+        <option value="latvia">Latvia</option>
+        <option value="lithuania">Lithuania</option>
+        <option value="russia">Russia</option>
+        <option value="estonia">Estonia</option>
+      </select> </div>
+      <div><label>Description: </label><textarea rows="4" cols="25" name="" form="usrform"></textarea></div>
+      <div><label>I am enjoying this:</label>Yes<input type="radio" name="enjoy" id="yes">No<input type="radio" name="enjoy" id="no"></div>
+      <button type="submit">Submit</button>
+</form>
+<a href="../src/monaltom.github.io/index.html">Inner Link</a><br>
+<a href="https://stackoverflow.com/questions/28381856/how-do-i-use-rowspan-to-cover-1-5-times-the-cell" target="_blank">Outter Link</a>
+
+<ul>
+    <li>
+        Not ordered list:
+        <ol>
+            <li>Pizza</li>
+            <li>Pasta</li>
+            <li>Hot-dogs</li>
+        </ol>
+    </li>
+    <li>
+        My favorite sports:
+
+        <ul>
+            <li>Hockey</li>
+            <li>Beach volleyball</li>
+        </ul>
+    </li>
+</ul>
+</body>
+</html>

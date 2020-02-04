@@ -1,0 +1,49 @@
+/*1*/
+
+h1 {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 15px;
+    color: #efefef;
+    background: black;
+}
+
+h2 {
+    font-size: 20px;
+    display:inline-block;
+    margin-left: 25px;
+}
+
+p {
+    display: inline-block;
+    margin-left:25px;
+    width: 200px;
+}
+
+/*2*/
+label span {
+    color: #FF0000;
+}
+
+/*3*/
+
+.a.b {
+    color: grey;
+}
+
+/*4*/
+ul > li {
+    list-style: none;
+}
+/*5*/
+body * {
+    font-style: italic;
+}
+/*6*/
+/*7*/
+li, .a {
+    font-size: 25px;
+}
+/*8*/
+/*9*/
+/*10*/
