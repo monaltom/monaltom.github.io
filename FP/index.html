@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js" integrity="sha256-sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI=" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+    <script src="form-validation.js"></script>
+    <title>Final project</title>
+</head>
+<body>
+    <div class="box">
+        <a class="button" href="#popup1">DON'T PUSH ME</a>
+    </div>
+    
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <h2>Fill this form, please!</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <p>Fill this form, so we have information about You. ;)</p>
+                    <form name="important">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Your name..">
+                  
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+                    
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+                    
+                    <label for="needStalker">
+                        <input type="checkbox" id="trigger" name="question">
+                        Do you need stalker?
+                    </label>
+
+                    <div id="hidden_fields">
+                        <label id="address">Address: </label>
+                        <input type="text" id="hidden_field" name="hidden">
+
+                        <label>Reasons </label>
+                         <select id="reasons" name="reasons">
+                            <option value="to-kill">To know the best time to kill someone</option>
+                            <option value="pet">To know what my pet does</option>
+                            <option value="cheating">To know if my spouse cheats</option>
+                        </select>
+                      </div>
+
+                    <input type="submit" value="Submit">
+                    </form>
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
